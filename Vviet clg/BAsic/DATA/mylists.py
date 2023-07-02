@@ -6,8 +6,8 @@
 "it will accept diff data it is also called as heterogenius"
 "it will allow to replace data it is also called mutable things"
 "occurance of each element in a given list  "
-a=[1,2,3,5,6,5,25,55,5,"adgfg","jhhyftf"]
-b=[]
+#a=[1,2,3,5,6,5,25,55,5]
+#b=[]
 '''
 c=(list(range(6)))
 wd=["m","t","w","th","f","sat","sun"]
@@ -26,7 +26,7 @@ print(len(wd))
 print(a.count(5))
 '''
 
-
+'''
 a.append(11)
 print(a)
 a.append("kar")
@@ -41,3 +41,30 @@ print(a[10])
 a.extend("kar")
 print(a)
 print(a[16])
+a.pop(15)
+print(a)
+a.remove(5)
+print(a)
+a.reverse()
+print(a)
+a.sort()
+print(a)
+'''
+x=[1,2,3,4,24,26,28,34,455,56,566,66,98]
+y=[]
+'''
+result = list(filter(lambda x :(x % 2 == 0),x))
+y=result.copy()
+print(y)
+'''
+'''
+for a in x:
+    if a%2==0:
+        y.append(a)
+print(y)
+'''
+'''
+y=[a for a in x if a%2 == 0]
+print(y)
+  '''      
+
